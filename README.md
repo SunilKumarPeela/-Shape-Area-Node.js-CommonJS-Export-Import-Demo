@@ -87,3 +87,14 @@ const areaOfCircle = circleArea(radius);
 
 const areaOfSquare = squareArea(sideLength);
 ```
+---
+## 🎯 Skills Learned
+
+- **CommonJS Modules in Node.js**: Exporting functions with `module.exports` and importing them using `require()`.
+- **Export Patterns**: Bundling multiple functions in a single export object vs. attaching properties individually.
+- **Import Styles**: Whole-module import vs. **object destructuring** to pull specific functions.
+- **Project Structure**: Organizing small Node projects with separate module (`shape-area.js`) and app (`app.js`) files.
+- **Function Design**: Writing small, reusable pure functions (`circleArea`, `squareArea`) with clear parameters and returns.
+- **Basic Math in JS**: Using `Math.PI` and arithmetic operators to implement formulas (πr², s²).
+- **Console I/O**: Printing results with `console.log()` for quick verification.
+- **NPM Basics**: Running a script with `npm start` to execute `node app.js`.
