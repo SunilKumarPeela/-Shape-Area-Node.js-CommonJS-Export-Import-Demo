@@ -30,16 +30,17 @@ const squareArea =radius =>{
 module.exports.circleArea=circleArea
 module.exports.squareArea=squareArea
 ```
-###Importing Module
+#Importing Module
+
 First, import the shape-area.js module using the require() function (shape-area.js is in the same folder as app.js). Choose one of the two options below for storing the returned module.exports object:
 
-A) Store the entire module.exports object in the variable areaFunctions.
-B) Use object destructuring to extract the .circleArea() and .squareArea() methods into their own variables, circleArea and squareArea.
-Next, call the circleArea() function with the provided variable radius as an input. Assign the returned value to the variable areaOfCircle.
+ - A) Store the entire module.exports object in the variable areaFunctions.
+ - B) Use object destructuring to extract the .circleArea() and .squareArea() methods into their own variables, circleArea and squareArea.
+ - Next, call the circleArea() function with the provided variable radius as an input. Assign the returned value to the variable areaOfCircle.
 
 Then, call the squareArea() function with the provided variable sideLength as an input. Assign the returned value to the variable areaOfSquare.
 
-You may print the values of areaOfCircle and areaOfSquare to the console to see your code work!
+
 
 ```js
 /* app.js */ 
