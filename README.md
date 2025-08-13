@@ -30,7 +30,8 @@ const squareArea =radius =>{
 module.exports.circleArea=circleArea
 module.exports.squareArea=squareArea
 ```
-#Importing Module
+---
+### Importing Module
 
 First, import the shape-area.js module using the require() function (shape-area.js is in the same folder as app.js). Choose one of the two options below for storing the returned module.exports object:
 
